@@ -1,0 +1,24 @@
+    #BCIIV2A
+    configs = {
+        'class_num': 4,
+        'channelNum': 22,
+        'width': 300,
+        'drop_att': 0.2,
+        'p': 3
+    }
+   # BCIIV2B
+    configs = {
+        'class_num': 2,
+        'channelNum': 3,
+        'width': 300,
+        'drop_att': 0.2,
+        'p': 3
+    }
+  #  PhysioNet
+    configs = {
+        'class_num': 2,
+        'channelNum': 64,
+        'width': 300,
+        'drop_att': 0.2,
+        'p': 3
+    }
