@@ -1,6 +1,7 @@
 # RUNet: A Zero-Calibration Framework for Cross-Domain EEG Decoding via Riemannian and Unsupervised Representation Learning
 This repository contains the code for RUNet implemented with PyTorch.
 More details in paper: RUNet: A Zero-Calibration Framework for Cross-Domain EEG Decoding via Riemannian and Unsupervised Representation Learning
+
 ## Repository Structure
 - `compare_model/`: Comparative models from literature
 - {main.py}: Main training pipeline (pretraining + fine-tuning)
@@ -10,6 +11,7 @@ More details in paper: RUNet: A Zero-Calibration Framework for Cross-Domain EEG 
 - {utils.py}: Key modules (PCOM, AIT, LEM)
 - `config.yaml`: Hyperparameter configuration
 - `requirements.txt`: Dependencies
+  
 ## Hyperparameters
 | Stage         | Batch Size | Learning Rate | Epochs | Temperature (τ) |
 |---------------|------------|---------------|--------|-----------------|
@@ -20,14 +22,18 @@ More details in paper: RUNet: A Zero-Calibration Framework for Cross-Domain EEG 
 - PCOM module: α (initial=0.5, learnable), fusion weights w (initial=1, learnable)
 - RALM module: EMA parameter α=0.1
 - Numerical stability constant ε=1×10⁻⁶
+  
 ## Environment requirements
 The requirements.txt file provides the environment requirements.
+
 ## Data Availability
 The BCIC-IV-2a dataset can be downloaded in the following link: https://www.bbci.de/competition/iv/.
 The BCIC-IV-2b dataset can be downloaded in the following link: https://www.bbci.de/competition/iv/.
 The PhysioNet dataset can be downloaded in the following link: https://www.physionet.org/content/eegmmidb/1.0.0/
+
 ## Implementations of ShallowNet, EEGNet, FBCNet, EEG-conformer, ATCNet, TransNet, MSVTNet, DMSANet and SST-DPN
-ShallowNet is provided at https://github.com/robintibor/braindecode/
+ShallowNet is provided at https://github.com/robintibor/braindecode/  
+
 EEGNet is provided at https://github.com/vlawhern/arl-eegmodels
 FBCNet is provided at https://github.com/ravikiran-mane/FBCNet
 EEG-conformer is provided at https://github.com/eeyhsong/EEG-Conformer
