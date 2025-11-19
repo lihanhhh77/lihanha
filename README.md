@@ -32,12 +32,11 @@ The BCIC-IV-2b dataset can be downloaded in the following link: https://www.bbci
 The PhysioNet dataset can be downloaded in the following link: https://www.physionet.org/content/eegmmidb/1.0.0/
 
 ## Implementations of ShallowNet, EEGNet, FBCNet, EEG-conformer, ATCNet, TransNet, MSVTNet, DMSANet and SST-DPN
-ShallowNet is provided at https://github.com/robintibor/braindecode/  
-
-EEGNet is provided at https://github.com/vlawhern/arl-eegmodels
-FBCNet is provided at https://github.com/ravikiran-mane/FBCNet
-EEG-conformer is provided at https://github.com/eeyhsong/EEG-Conformer
-ATCNet is provided at https://github.com/Altaheri/EEG-ATCNet
-TransNet, is provided at https://github.com/Ma-Xinzhi/EEG-TransNet
-DMSANet is provided at https://github.com/xingxin-99/DMSANet
-SST-DPN is provided at https://github.com/hancan16/SST-DPN
+- ShallowNet is provided at https://github.com/robintibor/braindecode/  
+- EEGNet is provided at https://github.com/vlawhern/arl-eegmodels
+- FBCNet is provided at https://github.com/ravikiran-mane/FBCNet
+- EEG-conformer is provided at https://github.com/eeyhsong/EEG-Conformer
+- ATCNet is provided at https://github.com/Altaheri/EEG-ATCNet
+- TransNet, is provided at https://github.com/Ma-Xinzhi/EEG-TransNet
+- DMSANet is provided at https://github.com/xingxin-99/DMSANet
+- SST-DPN is provided at https://github.com/hancan16/SST-DPN
